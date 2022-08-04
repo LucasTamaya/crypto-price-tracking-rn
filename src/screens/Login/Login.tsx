@@ -87,11 +87,11 @@ export const Login: React.FC = () => {
                 field: { onChange, value },
                 fieldState: { error },
               }) => (
-                <View className="mb-10">
+                <View className="my-10">
                   <Text className="text-yellow font-bold mb-2">Your email</Text>
                   <TextInput
                     value={value || ""}
-                    className="bg-white rounded-md px-3 py-2 mb-1"
+                    className="bg-white rounded-md p-3 mb-1"
                     onChangeText={onChange}
                     keyboardType="email-address"
                     onTouchStart={() => setKeyboardVisible(true)}
@@ -119,7 +119,7 @@ export const Login: React.FC = () => {
                   </Text>
                   <TextInput
                     value={value || ""}
-                    className="bg-white rounded-md px-3 py-2 mb-1"
+                    className="bg-white rounded-md p-3 mb-1"
                     onChangeText={onChange}
                     secureTextEntry={true}
                     onSubmitEditing={onSubmit}

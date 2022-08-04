@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "crypto-price-tracking",
-    "slug": "crypto-price-tracking",
+    "name": "crypto-mania",
+    "slug": "crypto-mania",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -14,9 +14,7 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
     },
